@@ -1,3 +1,5 @@
+![cover](github/MediaBase.gif)
+
 # MovieBase - Movie App
 
 Simple movie app created with axios, styled-components and API recipe.
