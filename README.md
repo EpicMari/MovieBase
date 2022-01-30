@@ -1,4 +1,4 @@
-![cover](github/MediaBase.gif)
+![cover](github/MovieBase.gif)
 
 # MovieBase - Movie App
 
