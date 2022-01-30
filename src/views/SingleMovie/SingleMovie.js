@@ -12,17 +12,23 @@ import {
 } from "./SingleMovie.styles";
 import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 import { GiRoundStar } from "react-icons/gi";
+import { listTypes } from "../../helpers/listType";
 
 const SingleMovie = ({
   location: {
-    state: { overview, image, title, release_date, vote_average, id },
+    state: { overview, image, title, release_date, vote_average, id, listType },
   },
 }) => {
   const { addToFav, checkIfMovieIsInFavList } = useContext(AppContext);
   const isInFav = checkIfMovieIsInFavList(id);
 
   const renderMovieLikeOrDislikeBtn = () => (
-    <StyledButton disabled={isInFav} onClick={() => addToFav(id, "searched")}>
+    <StyledButton
+      disabled={isInFav}
+      onClick={() =>
+        addToFav(id, listType === listTypes.searchedMovies && "searched")
+      }
+    >
       {isInFav ? <FcLike /> : <FcLikePlaceholder />}
     </StyledButton>
   );

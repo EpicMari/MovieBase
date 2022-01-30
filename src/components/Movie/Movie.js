@@ -37,6 +37,7 @@ const Movie = ({
           vote_average,
           id,
           isInFav,
+          listType,
         },
       }}
     >
