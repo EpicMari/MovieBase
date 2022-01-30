@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
     listType === listTypes.favMovies ? "0px" : "80px"};
 
   @media (min-width: ${({ theme }) => theme.devices.tablet}) {
-    /* margin: 0 0 0 200px; */
     margin: ${({ listType }) =>
       listType === listTypes.searchedMovies ? "0" : "0 0 0 200px"};
   }

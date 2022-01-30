@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   background: ${({ theme }) => theme.colors.white};
 
   @media (min-width: ${({ theme }) => theme.devices.tablet}) {
-    margin: 0 0 0 200px;
+    margin-left: 200px;
   }
 `;
 

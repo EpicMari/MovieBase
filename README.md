@@ -3,6 +3,7 @@
 Simple movie app created with axios, styled-components and API recipe.
 
 This site was built using Netlify.
+
 [Check live version!](https://moviebase-react-app.netlify.app/)
 
 ```
@@ -26,6 +27,7 @@ Application using any API for learning. In the project, I also used class compon
 - Axios
 - Styled Components
 - React Router
+- RWD
 
 ## Setup
 

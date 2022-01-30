@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 20px;
 
   @media (min-width: ${({ theme }) => theme.devices.tablet}) {
     margin: 0 0 0 200px;
